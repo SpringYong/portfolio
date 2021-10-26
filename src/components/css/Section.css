@@ -1,0 +1,38 @@
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title h2 {
+  position: relative;
+  color: #00adad;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  text-shadow: 1.8px 1.6px 1.2px #000000;
+}
+
+.title h2:before {
+  content: "- ";
+}
+
+.title h2:after {
+  content: " -";
+}
+
+@media screen and (max-width: 1024px) {
+  .title h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,66 @@
+.project {
+  padding: 100px 200px;
+  background: #ababab;
+}
+
+.project .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.project .content .card {
+  width: 340px;
+  margin: 0 18px 50px;
+}
+
+.project .content .card .card-img {
+  background: #fff;
+  width: 100%;
+  height: 260px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 3.6px 3.5px 6.2px #333;
+}
+
+.project .content .card .card-img img {
+  padding: 33px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 330px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.project .content .card .card-desc {
+  position: relative;
+  top: 67%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.project .content .card .card-desc h2 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.project .content .card .card-desc span {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 100px 50px;
+  }
+}
